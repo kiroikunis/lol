@@ -1,0 +1,12 @@
+# fast food calculator
+def cupon():
+  print("hi i hope you enjoyed your food, of how much was your account?")
+  account = int(input())
+  print("ok and of how much was the voucher of discount")
+  discounts = int(input())
+  total_account= (discounts/100)*account
+  print(total_account)
+  total= account- int(total_account)
+  print(total)
+  print("thank you have a nice day")
+cupon()
