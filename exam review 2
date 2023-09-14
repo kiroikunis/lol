@@ -1,0 +1,10 @@
+#interest calculator
+def interes():
+  print("hello of how much is your debt?")
+  debt = int(input())
+  print("ok, and of how much was your anual interest?")
+  anual = int(input())
+  interest = (anual/100)*debt
+  print(interest)
+  print("this is your anual interest have a nice day :)")
+interes()
