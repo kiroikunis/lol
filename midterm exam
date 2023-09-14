@@ -1,0 +1,17 @@
+#test
+def velocity():
+  print("we are going to calculate the velocity and the avarege of it")
+  distance = int(2)
+  iteration_1 = int(15)
+  iteration_2 = int(17)
+  iteration_3 = int(21)
+  print("we are going to calculate the velocity of each one :)")
+  velocity = distance/iteration_1
+  velocity_2 = distance/iteration_2
+  velocity_3 = distance/iteration_3
+  print(velocity, velocity_2, velocity_3)
+  print("that was the velocity, the next step is the average velocity")
+  average_velocity = (velocity+velocity_2+velocity_3)/3
+  print(average_velocity)
+  print("and thats it hope you enjoyed :)")
+velocity()
